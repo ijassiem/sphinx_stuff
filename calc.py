@@ -65,3 +65,16 @@ def divide(a, b):
     """
     result = a/b
     return result
+
+def modulo(a, b):
+    """This function calculates the modulo of two integer numbers
+
+    :param a: first number
+    :type a: int
+    :param b: second number
+    :type b: int
+    :return: modulo of two integer numbers
+    :rtype: int
+    """
+    result = a%b
+    return result
