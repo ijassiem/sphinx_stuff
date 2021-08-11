@@ -52,3 +52,16 @@ def multiply(a, b, c):
     """
     result = a*b*c
     return result
+
+def divide(a, b):
+    """This function calculates the quotient of two integer numbers
+
+    :param a: first number
+    :type a: int
+    :param b: second number
+    :type b: int
+    :return: quotient of two integer numbers
+    :rtype: int
+    """
+    result = a/b
+    return result
